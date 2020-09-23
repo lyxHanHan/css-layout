@@ -7,8 +7,65 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    padding: 15px 20px;
+}
+
+header img{
+    float: left;
+    border-radius: 50%;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    margin-left:10%;
+}
+
+header nav{
+    float: right;
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    color:white;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    float: right;
 }
+
+.description img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+ }
+ 
+ .description-p2{
+     margin-top: 20px;
+     clear:both
+ }
+ 
+ .relationship img{
+     width: 300px;
+     float: right;
+     margin-right: 20px;
+  }
+
+  footer{
+
+    width: 1200px;
+    margin: auto;
+    background-color: darkgrey;
+    text-align: center;
+}
+  
